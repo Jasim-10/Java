@@ -114,6 +114,7 @@ public class forLoop{
 
 //Print reverse of a number also store the reverse
 
+/*
 import java.util.*;
 public class forLoop{
     public static void main(String[] args) {
@@ -128,3 +129,7 @@ public class forLoop{
        System.out.print(rev);
     }
 }
+
+*/
+
+
