@@ -415,3 +415,119 @@
 
 
 //16.full pyramid
+// import java.util.Scanner;
+// public class pattern{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter number of rows: ");
+//         int a = sc.nextInt();
+//         pattern16(a);
+//     }
+//     static void pattern16(int row){
+//         for(int i=1;i<=row;i++){
+//             for(int j=row-1;j>=i;j--){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i)-1;j++){
+//                 System.out.print("* ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+// 17.Hallow Pyramid
+// import java.util.Scanner;
+// public class pattern{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter number of rows: ");
+//         int a = sc.nextInt();
+//         pattern17(a);
+//     }
+//     static void pattern17(int row){
+//         for(int i=1;i<=row;i++){
+//             for(int j=row-1;j>=i;j--){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i)-1;j++){
+//                 if(i==1 || j==1 || i==row || j==(2*i)-1){
+//                     System.out.print("* ");
+//                 }else{
+//                     System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// 18.Reverse hallow pyramid 
+// import java.util.Scanner;
+// public class pattern{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter number of rows: ");
+//         int a = sc.nextInt();
+//         pattern18(a);
+//     }
+//     static void pattern18(int row){
+        // for(int i=row;i>=1;i--){
+        //     for(int j=row-1;j>=i;j--){
+        //         System.out.print("  ");
+        //     }
+        //     for(int j=1;j<=(2*i)-1;j++){
+        //         if(i==1 || j==1 || i==row || j==(2*i)-1){
+        //             System.out.print("* ");
+        //         }else{
+        //             System.out.print("  ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+//     }
+// }
+
+
+
+// 19.Hallow Diamond
+// import java.util.Scanner;
+// public class pattern{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter number of rows: ");
+//         int a = sc.nextInt();
+//         pattern17(a);
+//     }
+//     static void pattern17(int row){
+//         for(int i=1;i<=row;i++){
+//             for(int j=row-1;j>=i;j--){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i)-1;j++){
+//                 if(i==1 || j==1  || j==(2*i)-1){
+//                     System.out.print("* ");
+//                 }else{
+//                     System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//         for(int i=row-1;i>=1;i--){
+//             for(int j=row-1;j>=i;j--){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i)-1;j++){
+//                 if(i==1 || j==1  || j==(2*i)-1){
+//                     System.out.print("* ");
+//                 }else{
+//                     System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
