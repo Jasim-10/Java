@@ -1,4 +1,5 @@
-//1.Square Pattern
+
+// 1.Square Pattern
 // import java.util.Scanner;
 // public class pattern{
 //     public static void main(String[] args) {
@@ -7,7 +8,6 @@
 //         int a = sc.nextInt();
 //         System.out.print("Enter number of columns: ");
 //         int b = sc.nextInt();
-
 //         pattern1(a,b);
 //     }
 //     static void pattern1(int row, int col){
