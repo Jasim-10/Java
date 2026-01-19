@@ -144,3 +144,107 @@
 // }
 
 
+
+
+//Binary Search
+// import java.util.*;
+// public class ArrayBasic{
+//     public static int binarySearch(int numbers[],int keys){
+//         int start = 0;
+//         int end = numbers.length-1;
+//         while(start<=end){
+//             int mid = (start + end)/2;
+//             if(numbers[mid]==keys){
+//                 return mid;
+//             }
+//             if(numbers[mid]<keys){
+//                 start = mid+1;
+//             }else{
+//                 end = mid-1;
+//             }
+//         }
+//         return -1;
+//     }
+//     public static void main(String[] args) {
+//         int numbers[] = {2,3,4,5,7,9,11,12,13,14,15,17,19};
+//         int keys = 12;
+//         System.out.println(binarySearch(numbers,keys));
+//     }
+// }
+
+
+
+
+//Reverse an array
+// import java.util.*;
+// public class ArrayBasic{
+//     public static void reverse(int number[]){
+//         int first = 0, last=number.length-1;
+//         while(first<last){
+//             int temp = number[last];
+//             number[last] = number[first];
+//             number[first] = temp;
+//             first++;
+//             last--;
+//         }
+//     }
+//     public static void main(String[] args) {
+//         int number[]={2,3,4,5,6,7,9,1,0,8};
+//         reverse(number);
+//         for(int i=0;i<number.length;i++){
+//             System.out.print(number[i]+" ");
+//         }
+//     }
+// }
+
+
+
+
+//Pairs in an array
+// import java.util.*;
+// public class ArrayBasic{
+//     public static void printPairs(int numbers[]){
+//         int tp = 0;
+//         for(int i=0;i<numbers.length;i++){
+//             int current = numbers[i];
+//             for(int j=i+1;j<numbers.length;j++){
+//                 System.out.print("("+current + ","+ numbers[j] + ")");
+//                 tp++;
+//             }
+//             System.out.println();
+//         }
+//         System.out.println("total pairs: "+tp);
+//     }
+//     public static void main(String[] args) {
+//         int numbers[] = {1,2,8,3,5};
+//         printPairs(numbers);
+//     }
+// }
+
+
+
+
+//Print subarray
+import java.util.*;
+public class ArrayBasic{
+    public static void printSubarrays(int numbers[]){
+        int ts = 0;
+        for(int i=0;i<numbers.length;i++){
+            int start = i;
+            for(int j=i;j<numbers.length;j++){
+                int end = j;
+                for(int k=start;k<=end;k++){
+                    System.out.print(+numbers[k]+" ");
+                }
+                ts++;
+                System.out.println();
+            }
+            System.out.println();
+        }
+        System.out.println("total number of subarray: "+ts);
+    }
+    public static void main(String[] args) {
+        int numbers[] = {2,4,6,8,10};
+        printSubarrays(numbers);
+    }
+}
